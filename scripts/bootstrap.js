@@ -63,7 +63,23 @@ function createUsers() {
 		},
 	})
 
-	Promise.all([createJohn, createAmy, createCandice])
+	let defineProfilePhotoAttribute = mitterAxiosClient.post(
+		'/v1/attribute-def/users',
+		{
+			key: constants.mitter.ProfilePhoto,
+			canBeEmpty: true,
+			allowedContentTypes: ['text/plaintext'],
+			allowedContentEncodings: ['identity'],
+			entityType: 'users',
+		}
+	)
+
+	Promise.all([
+		createJohn,
+		createAmy,
+		createCandice,
+		defineProfilePhotoAttribute,
+	])
 		.then((results) => {
 			createChannel()
 		})

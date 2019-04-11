@@ -1,6 +1,6 @@
-# Server for Running Timeline Events Demo
+# Server for Running Custom Profiles Demo
 
-This is a lightweight utility server to help you run the Timeline Events demo app for all platforms:
+This is a lightweight utility server to help you run the Custom Profiles demo app for all platforms:
 
 * Android - [https://github.com/mitterio/android-timeline-events-demo](https://github.com/mitterio/android-timeline-events-demo)
 
@@ -9,7 +9,7 @@ This is a lightweight utility server to help you run the Timeline Events demo ap
 Download a copy of this server by doing a git clone:
 
 ```
-git clone https://github.com/mitterio/server-timeline-events-demo.git
+git clone https://github.com/mitterio/server-custom-profile-demo.git
 ```
 
 Before you can run this server, you need to create an application at [Mitter.io Cloud](https://dashboard.mitter.io) or your local instance of Mitter.io (if you're running the Mitter.io Docker container).
