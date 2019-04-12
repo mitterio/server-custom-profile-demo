@@ -2,7 +2,7 @@
 
 This is a lightweight utility server to help you run the Custom Profiles demo app for all platforms:
 
-* Android - [https://github.com/mitterio/android-timeline-events-demo](https://github.com/mitterio/android-timeline-events-demo)
+* Android - [https://github.com/mitterio/android-custom-profile-demo](https://github.com/mitterio/android-custom-profile-demo)
 
 ## How to setup?
 
@@ -29,4 +29,4 @@ You can run this server simply by navigating to the project directory and runnin
 yarn run start
 ```
 
-On start, you'll get a channel ID printed to the console. Copy this ID and paste it inside the timeline events demo app.
+On start, you'll get a channel ID printed to the console. Copy this ID and paste it inside the custom profiles demo app.
